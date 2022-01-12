@@ -31,7 +31,7 @@ console.groupEnd();
 console.group("Таски на prompt:");
 
 const sguareIt = Number(prompt("Введите число:"));
-alert(sguareIt * sguareIt);
+alert(sguareIt ** 2);
 
 const numb1 = Number(prompt("Введите первое число:"));
 const numb2 = Number(prompt("Введите второе число:"));
