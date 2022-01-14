@@ -57,13 +57,13 @@ if (userNumb === 10) {
 
 const test = true;
 
-if (test === true) {
+if (test) {
   console.log("Верно");
 } else {
   console.log("Неверно");
 }
 
-if (test !== true) {
+if (!test) {
   console.log("Верно");
 } else {
   console.log("Неверно");
@@ -121,15 +121,15 @@ const sumCount = 100;
 
 while (++numbI <= sumCount) {
   sum += numbI;
-  console.log("numbI =", numbI, "sum =", sum);
 }
+console.log("sum =", sum);
 
 let sumEnd = 0;
 
 for (let i = 1; i <= 100; ++i) {
   sumEnd += i;
-  console.log("i =", i, "sumEnd =", sumEnd);
 }
+console.log("sumEnd =", sumEnd);
 
 console.groupEnd();
 
